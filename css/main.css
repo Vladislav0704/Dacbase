@@ -8,13 +8,6 @@ a {
   text-decoration: none;
 }
 
-body {
-  width: auto;
-  font-family: "Open sans", sans-serif;
-  font-size: 14px;
-  letter-spacing: 0.03em;
-}
-
 h1,
 h2,
 h3,
@@ -31,5 +24,19 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+body {
+  width: auto;
+  font-family: "Open sans", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+.header_list {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.37;
+  color: #212121;
 }
 /*# sourceMappingURL=main.css.map */
