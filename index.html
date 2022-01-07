@@ -11,52 +11,65 @@
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    <header class="header">
-        <img class="header_logo" src="./images/logo.jpg" alt="logo">
-        <ul class="header_item">
-            <li class="header_list">HOME</li>
-            <li class="header_list">PROJECT</li>
-            <li class="header_list">SERVICES</li>
-            <li class="header_list">ABOUT</li>
-            <li class="header_list">BLOK</li>
-            <li class="header_list">SHOP</li>
-            <li class="header_list">CONTACT</li>
-        </ul>
-        <button type="button">Sign Up
-        </button>
+    <header class="">
+        <div class="header conteiner">
+            <a href="">
+                <img class="header_logo" src="./images/logo.jpg" alt="logo">
+            </a>
+            <div class="header_top">
+                <ul class="header_item">
+                    <li class="header_list">HOME</li>
+                    <li class="header_list">PROJECT</li>
+                    <li class="header_list">SERVICES</li>
+                    <li class="header_list">ABOUT</li>
+                    <li class="header_list">BLOK</li>
+                    <li class="header_list">SHOP</li>
+                    <li class="header_list">CONTACT</li>
+                </ul>
+                <button class="header_btn" type="button">Sign Up
+                </button>
+            </div>
+        </div>
     </header>
     <main>
         <!-- MODERN -->
-        <section>
-            <span>MODERN INTERIOR</span>
-            <h1>Create Your Interior Design.</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud exercitation.</p>
-            <button type="button">CONTACT</button>
-            <img src="./images/home.jpg" alt="pages">
+        <section class="modern conteiner">
+            <div class="modern_section">
+                <div class="modern_">
+                    <span class="modern_pre-title">MODERN INTERIOR</span>
+                    <h1 class="modern_title">Create Your Interior Design.</h1>
+                    <p class="modern_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                        veniam, quis nostrud exercitation.</p>
+                    <button class="modern_btn" type="button">CONTACT</button>
+                </div>
+                <div class="modern_pages">
+                    <div class="modern_border"></div>
+                    <img class="modern_img" src="./images/home.jpg" alt="pages">
+                </div>
+            </div>
         </section>
         <!-- MODERN CLOSE -->
         <!-- SERVICE -->
-        <section>
-            <span>WHAT WE DO</span>
-            <h2>Our Service</h2>
-            <ul>
-                <li>
-                    <h3>Interior Design</h3>
-                    <p>Lorem ipsum dolor amet consectetur
+        <section class="service conteiner">
+            <span class="service_pre-title">WHAT WE DO</span>
+            <h2 class="service_title">Our Service</h2>
+            <ul class="service_item">
+                <li class="service_list">
+                    <h3 class="service_title">Interior Design</h3>
+                    <p class="service_text">Lorem ipsum dolor amet consectetur
                     adipiscing elit sed eiusmod tempor
                     incididunt ut labore.</p>
                 </li>
-                <li>
-                    <h3>Architecture</h3>
-                    <p>Lorem ipsum dolor amet consectetur
+                <li class="service_list--center">
+                    <h3 class="service_title">Architecture</h3>
+                    <p class="service_text">Lorem ipsum dolor amet consectetur
                     adipiscing elit sed eiusmod tempor
                     incididunt ut labore.</p>
                 </li>
-                <li>
-                    <h3>Planning</h3>
-                    <p>Lorem ipsum dolor amet consectetur
+                <li class="service_list">
+                    <h3 class="service_title">Planning</h3>
+                    <p class="service_text">Lorem ipsum dolor amet consectetur
                     adipiscing elit sed eiusmod tempor
                     incididunt ut labore.</p>
                 </li>
@@ -64,47 +77,65 @@
         </section>
         <!-- SERVICE CLOSE-->
         <!-- ABOUT -->
-        <section>
-            <img src="./images/home-2.jpg" alt="pages">
-            <span>ABOUT US</span>
-            <h2>Interioris The Will
-            of An Epoch Mextreo</h2>
-            <p>There are many variations of passages of Lorem Ipsum available,
-            but the majority have suffered alteration in some form injected
-            humour, or randomised words which don't look even slightly
-            believable.If you are going to use a passage of Lorem Ipsum,
-            sure there isn't anything embarrassing hidden the middleof text.
-            All the Lorem Ipsum generators on the Internettend to repeat
-            predefined chunks as necessary,making this the first true
-            generator on the Internet.</p>
-            <button type="button">LEARN MORE</button>
+        <section class="about conteiner">
+            <div class="about_section">
+                <div class="about_pages">
+                    <div class="about_border"></div>
+                    <img class="about_img" src="./images/home-2.jpg" alt="pages">
+                </div>
+                <div class="">
+                    <span class="about_pre-title">ABOUT US</span>
+                    <h2 class="about_title">Interioris The Will
+                        of An Epoch Mextreo</h2>
+                    <p class="about_text">There are many variations of passages of Lorem Ipsum available,
+                        but the majority have suffered alteration in some form injected
+                        humour, or randomised words which don't look even slightly
+                        believable.If you are going to use a passage of Lorem Ipsum,
+                        sure there isn't anything embarrassing hidden the middleof text.
+                        All the Lorem Ipsum generators on the Internettend to repeat
+                        predefined chunks as necessary,making this the first true
+                        generator on the Internet.</p>
+                    <button class="about_btn" type="button">LEARN MORE</button>
+                </div>
+            </div>
         </section>
         <!-- ABOUT CLOSE-->
         <!-- TOUBA -->
-        <section>
-            <img src="/images/twenty.jpg" alt="twenty">
-            <h2>Years Of Successful Working The Market</h2>
-            <button type="button">READ MORE</button>
-            <img src="./images/home-3.jpg" alt="pages">
+        <section class="touba conteiner">
+            <div class="touba_pages">
+                <div class="touba_left">
+                    <img class="touba_img" src="/images/twenty.jpg" alt="twenty">
+                    <h2 class="touba_tite">Years Of Successful Working The Market</h2>
+                    <button class="touba_btn" type="button">READ MORE</button>
+                </div>
+                <div class="touba_right">
+                    <div class="touba_border"></div>
+                    <img class="touba_img" src="./images/home-3.jpg" alt="pages">
+                </div>
+            </div>
         </section>
         <!-- TOUBA CLOSE-->
         <!-- COMPLEDET -->
-        <section>
-            <h2>
+        <section  class="compledet conteiner">
+            <h2 class="compledet_title">
                 3000+ Completed Work Which WE have Successfully Done
             </h2>
-            <ul>
-                <li>980
-                    <p>Project</p>
+            <ul class="compledet_item">
+                <li class="compledet_list">
+                    <h3 class="compledet_titles">980</h3>
+                    <p class="compledet_text">Project</p>
                 </li>
-                <li>520
-                    <p>Happy Client</p>
+                <li class="compledet_list">
+                    <h3 class="compledet_titles">520</h3>
+                    <p class="compledet_text">Happy Client</p>
                 </li>
-                <li>330
-                    <p>Winners</p>
+                <li class="compledet_list">
+                    <h3 class="compledet_titles">330</h3>
+                    <p class="compledet_text">Winners</p>
                 </li>
-                <li>120
-                    <p>Recoment</p>
+                <li class="compledet_list">
+                    <h3 class="compledet_titles">120</h3>
+                    <p class="compledet_text">Recoment</p>
                 </li>
             </ul>
         </section>

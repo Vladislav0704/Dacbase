@@ -1,0 +1,58 @@
+.touba {
+    padding-bottom: 177px;
+}
+.touba_pages {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.touba_left {
+    width: 528px;
+    & .touba_img {}
+    & .touba_tite {
+        margin-bottom: 35px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 50px;
+        line-height: 1.30;
+        color: $text-title-color;
+        letter-spacing: 0.04em;
+    }
+    & .touba_btn {
+        font-weight: bold;
+        font-size: 18px;
+        width: 142px;
+        height: 42px;
+        color: $wite-text-color;
+        background-color: $button-pre-color;
+        border-radius: 15px 0px;
+        border: none;
+        &:hover,
+        &:focus {
+            background-color: $button-after-color;
+        }
+        cursor: pointer;
+    }
+}
+
+.touba_right {
+    position: relative;
+    & .touba_border {
+        width: 716px;
+        height: 626px;
+        border: 2px solid $svg-color;
+        box-sizing: border-box;
+        border-radius: 140px 0px;
+    }
+    & .touba_img {
+        position: absolute;
+        width: 716px;
+        height: 626px;
+        box-sizing: border-box;
+        border-radius: 140px 0px;
+        bottom: 33px;
+        right: 35px;
+    }
+}

@@ -1,0 +1,72 @@
+.modern_section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.modern_pre-title {
+    margin-bottom: 12px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.35;
+    color: $text-color;
+}
+
+.modern_title {
+    width: 549px;
+    margin-bottom: 23px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 1.08;
+    color: $text-title-color;
+}
+
+.modern_text {
+    width: 640px;
+    margin-bottom: 46px;
+    font-size: 18px;
+    line-height: 1.67;
+    color: $text-color;
+}
+
+.modern_btn {
+    font-weight: bold;
+    font-size: 18px;
+    width: 142px;
+    height: 42px;
+    color: $wite-text-color;
+    background-color: $button-pre-color;
+    border-radius: 15px 0px;
+    border: none;
+    &:hover,
+    &:focus {
+        background-color: $button-after-color;
+    }
+    cursor: pointer;
+}
+
+.modern_pages {
+    position: relative;
+}
+
+.modern_img {
+    position: absolute;
+    width: 716px;
+    height: 626px;
+    box-sizing: border-box;
+    border-radius: 140px 0px;
+    bottom: 33px;
+    right: 35px;
+}
+
+.modern_border {
+    width: 716px;
+    height: 626px;
+    border: 2px solid $svg-color;
+    box-sizing: border-box;
+    border-radius: 140px 0px;
+}

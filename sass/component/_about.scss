@@ -1,0 +1,71 @@
+.about {
+    padding-bottom: 256px;
+}
+
+.about_section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about_pages {
+    position: relative;
+}
+.about_border {
+    width: 716px;
+    height: 626px;
+    border: 2px solid $svg-color;
+    box-sizing: border-box;
+    border-radius: 140px 0px;
+}
+.about_img {
+    position: absolute;
+    width: 716px;
+    height: 626px;
+    box-sizing: border-box;
+    border-radius: 140px 0px;
+    top: 33px;
+    left: 35px;
+}
+.about_pre-title {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.50;
+    color: $text-color;
+    margin-bottom: 6px;
+}
+.about_title {
+    width: 477px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 1.19;
+    color: $text-title-color;
+    margin-bottom: 22px;
+}
+.about_text {
+    width: 569px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.67;
+    color: $text-color;
+    margin-bottom: 46px;
+}
+.about_btn {
+    font-weight: bold;
+    font-size: 16px;
+    width: 142px;
+    height: 42px;
+    color: $wite-text-color;
+    background-color: $button-pre-color;
+    border-radius: 15px 0px;
+    border: none;
+    &:hover,
+    &:focus {
+        background-color: $button-after-color;
+    }
+    cursor: pointer;
+}
